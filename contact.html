@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>My Contact:</h3>
+    <ol type="i"> <!-- ordered list: 1. 2. 3. ...-->
+      <li>phone number - 0528675049</li>
+      <li>email - iris.kronfeld@gmail.com</li>
+    </ol>
+    <hr>
+    <form action="mailto:iris.kronfeld@gmail.com" method="post" enctype="text/plain"> <!-- when we press the submit button we will open an email msg to the mail specified in mail to-->
+      <label for="">Your Name:</label>
+      <input type="text" name="YourName" value=""> <!-- row that the user can enter his name-->
+      <br>
+      <label for="">Your Email:</label>
+      <input type="email" name="YourEmail" value=""><br> <!-- the name field labels the input that the user will enter-->
+      <label for="">Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea> <!-- rows: how tall the textarea, cols: how width-->
+      <input type="submit" name=""> <!-- the submit button-->
+    </form>
+  </body>
+</html>
